@@ -6,15 +6,25 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1{
-    color: white;
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  background: rgb(0.5, 0.5, 0.5); /* Fallback color */
+  background: rgba(0.5, 0.5, 0.5, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 50px;
+  width: 25%;
+  right: 38%;
+    top: 30%;
+    border-radius: 50%;
+  
 }
-.title1{
+.title2 {
     margin: 0;
     background: yellow;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
+    transform: translate(-50%, -50%) }
