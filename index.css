@@ -89,9 +89,13 @@ a{
     
 }
 .forms h1{
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-left: 550px;
+    margin-top: 50px;
     font-weight: 900;
     color: orangered;
     font-size: 40px;
+}
+.forms{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
 }
