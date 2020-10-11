@@ -30,6 +30,8 @@
     width: 300px;
     height: 300px;
     perspective: 1000px;
+    margin-top: 20px;
+    box-shadow: rgba(0,0,0,0.2);
     
   }
   
@@ -81,8 +83,5 @@
   .flex-container {
     display: flex;
     margin-left: 20%;
-    
-}
-#1{
     
 }
