@@ -51,9 +51,9 @@ if ( topping=== "Bacon"){
 if ( topping=== "Extra"){
     toppingPrice = 300;
 }
-
+var quality = document.getElementById("inputNumber").value
 var sum= crustPrice +sizePrice+ toppingPrice;
-alert("Total=" + sum);
+alert("Total=" + (sum*quality));
 
 
 
