@@ -51,9 +51,13 @@ if ( topping=== "Bacon"){
 if ( topping=== "Extra"){
     toppingPrice = 300;
 }
+
+//var delivery = document.querySelector('option[name="Delivery"]:checked').value; 
+
+
 var quality = document.getElementById("inputNumber").value
 var sum= crustPrice +sizePrice+ toppingPrice;
-alert("Total=" + (sum*quality));
+alert("Thank you for ordering our pizza!" + "The total amount to pay is "   + (sum*quality));
 
 
 
