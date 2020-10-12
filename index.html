@@ -77,78 +77,80 @@
             <form>
                 <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputPassword4" ><strong>Pizza</strong></label>
+                    <label for="inputPassword4"  class="selects"><strong>Pizza</strong></label>
                     <select id="inputState" class="form-control" required>
-                      <option selected>Neapolita pizza </option>
-                      <option>Chicago pizza</option>
-                      <option>New york-style pizza</option>
-                      <option>California pizza</option>
-                      <option>Greek pizza</option>
-                      <option>Detroit pizza</option>
-                      <option>St.Louis pizza</option>
+                      <option value="Neapolita" name="pizza" selected>Neapolita pizza </option>
+                      <option value="Chicago" name="pizza">Chicago pizza</option>
+                      <option value="New york-style" name="pizza">New york-style pizza</option>
+                      <option value="California" name="pizza">California pizza</option>
+                      <option value="Greek" name="pizza">Greek pizza</option>
+                      <option value="Detroit" name="pizza">Detroit pizza</option>
+                      <option value="St.Louis" name="pizza">St.Louis pizza</option>
                     </select>
                   </div>
                     <div class="form-group col-md-6">
-                      <label for="inputPassword4" ><strong>Pizza size</strong></label>
+                      <label for="inputPassword4" class="selects" ><strong>Pizza size</strong></label>
                       <select id="inputState" class="form-control" required>
-                        <option selected>Small 3000 rwf </option>
-                        <option>Medium 5000 rwf</option>
-                        <option>Large 8000 rwf</option>
+                        <option value="Small " name="size">Small 3000 rwf </option>
+                        <option value="Medium" name="size">Medium 5000 rwf</option>
+                        <option value="Large" name="size">Large 8000 rwf</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputPassword4"><strong>Pizza Crusts</strong></label>
+                        <label for="inputPassword4" class="selects"><strong>Pizza Crusts</strong></label>
                         <select id="inputState" class="form-control" required>
-                          <option selected>Crispy (1000 rwf)</option>
-                          <option>Stuffed(800rwf)</option>
-                          <option>Gluten-free(500rwf)</option>
+                          <option value="Crispy" name="crust" selected>Crispy (1000 rwf)</option>
+                          <option value="Stuffed" name="crust">Stuffed(800rwf)</option>
+                          <option value="Gluten-free" name="crust">Gluten-free(500rwf)</option>
                         </select>
                       </div>
                     <div class="form-group col-md-6">
-                      <label for="inputPassword4"><strong>Toppings</strong></label>
+                      <label for="inputPassword4" class="selects"><strong>Toppings</strong></label>
                       <select id="inputState" class="form-control" required>
-                        <option selected>Pepperoni (200 rwf)</option>
-                        <option>Mushrooms (200 rwf)</option>
-                        <option>Onions (300 rwf)</option>
-                        <option>Sausage (500 rwf)</option>
-                        <option>Bacon (400 rwf)</option>
-                        <option>Extra Cheese (300 rwf)</option>
+                        <option value="Pepperoni " name="topping" selected>Pepperoni (200 rwf)</option>
+                        <option value="Mushrooms"  name="topping">Mushrooms (200 rwf)</option>
+                        <option value="Onions"  name="topping">Onions (300 rwf)</option>
+                        <option value="Sausage"  name="topping">Sausage (500 rwf)</option>
+                        <option value="Bacon"  name="topping">Bacon (400 rwf)</option>
+                        <option value="Extra"  name="topping">Extra Cheese (300 rwf)</option>
                       </select>
                     </div>
                   </div>
                   <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="inputPassword4"><strong>Delivery</strong></label>
+                        <label for="inputPassword4" class="selects"><strong>Delivery</strong></label>
                         <select id="inputState" class="form-control" required>
-                          <option selected>Pick Up</option>
-                          <option>Delivery (1000 rwf)</option>
+                          <option value="Pick" selected>Pick Up</option>
+                          <option value="Delivery">Delivery (1000 rwf)</option>
                         </select>
                       </div>
                     <div class="form-group col-md-6">
                       <label for="inputPassword4"> <strong>Quantity</strong></label>
-                      <input type="number" class="form-control" id="inputAddress" placeholder="0" required>
+                      <input type="number" value="Quantity" class="form-control" id="inputAddress" placeholder="0" required>
                       </select>
                     </div>
                   </div>
                   <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputPassword4"><strong>Name </strong></label>
-                        <input type="text" class="form-control" id="phone" placeholder="Your full name"  required>
+                        <input value="Name" type="text" class="form-control" id="phone" placeholder="Your full name"  required>
                       </div>
-                    <div class="form-group col-md-6">
-                      <label for="inputPassword4"><strong>Phone Number </strong></label>
-                      <input type="tel" class="form-control" id="phone" placeholder="+250...."  required>
-                    </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4"><strong>Phone number </strong></label>
+                        <input value="Name" type="tel" class="form-control" id="phone" placeholder="+250...."  required>
+                      </div>
                   </div>
             
                 
-                <button type="submit" class="btn btn-primary">Check me out</button>
+                <button type="submit" class="btn btn-primary" onclick="formVal()">Check me out</button>
               </form>
 
           </section>
-
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+          <script src="script.js"></script>
     </body>
     <footer>
 
