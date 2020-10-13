@@ -100,3 +100,9 @@ form{
     margin-left: 10% !important;
     margin-right: 10% !important;
 }
+button{
+   margin-left:  40% !important;
+   margin-bottom: 100px !important;
+   padding-left: 80px !important;
+   padding-right: 80px !important;
+}
